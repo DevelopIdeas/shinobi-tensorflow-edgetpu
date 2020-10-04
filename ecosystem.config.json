@@ -1,0 +1,12 @@
+{
+    "apps": [{
+        "name": "obj-detect",
+        "script": "./app.py",
+        "args": ["-c", ""],
+        "instances": "1",
+        "wait_ready": false,
+        "autorestart": true,
+        "max_restarts": 0,
+        "interpreter" : "/usr/bin/python3",
+    }]
+}
